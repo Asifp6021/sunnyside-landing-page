@@ -1,0 +1,334 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta
+			name="viewport"
+			content="width=device-width, initial-scale=1.0" />
+		<!-- displays site properly based on user's device -->
+
+		<link
+			rel="icon"
+			type="image/png"
+			sizes="32x32"
+			href="./images/favicon-32x32.png" />
+
+		<!-- font-awesome link -->
+
+		<link
+			rel="stylesheet"
+			href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css"
+			integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g=="
+			crossorigin="anonymous"
+			referrerpolicy="no-referrer" />
+
+		<link
+			rel="stylesheet"
+			href="style.css" />
+
+		<title>Frontend Mentor | Sunnyside agency landing page</title>
+
+		<!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
+		<style>
+			.attribution {
+				font-size: 11px;
+				text-align: center;
+			}
+			.attribution a {
+				color: hsl(228, 45%, 44%);
+			}
+		</style>
+	</head>
+	<body class="container">
+		<!-- ---------------------------------- nav -->
+		<section
+			class="header layout grid"
+			id="about">
+			<div class="header__content grid">
+				<h1 class="header__content--logo">Sunnyside</h1>
+
+				<ul class="header__content--nav grid show">
+					<li>
+						<a
+							class="header__nav--link"
+							href="#"
+							>about</a
+						>
+					</li>
+					<li>
+						<a
+							href="#"
+							class="header__nav--link"
+							>services</a
+						>
+					</li>
+					<li>
+						<a
+							href="#"
+							class="header__nav--link"
+							>projects</a
+						>
+					</li>
+					<li>
+						<a
+							href="#"
+							class="header__nav--link active"
+							>contact</a
+						>
+					</li>
+				</ul>
+
+				<img
+					src="images/icon-hamburger.svg"
+					alt="icon-hamburger"
+					class="hamburger" />
+			</div>
+
+			<h2 class="header__content--title"><span>We are</span> creatives</h2>
+
+			<img
+				src="images/desktop/image-header.jpg"
+				alt="orange"
+				class="desktop header__img" />
+			<img
+				src="images/mobile/image-header.jpg"
+				alt="orange"
+				class="mobile header__img" />
+
+			<img
+				src="images/arrow.png"
+				alt="arrow"
+				class="arrow" />
+		</section>
+
+		<!-- ---------------------------------- project -->
+
+		<section
+			class="projects layout grid"
+			id="projects">
+			<div class="project__one--container grid">
+				<div class="project__one grid">
+					<h3 class="project__one--title sec-title-one">
+						transform your <span>brand</span>
+					</h3>
+
+					<p class="project__one--para sec-para">
+						We are a full-service creative agency specializing in helping brands
+						grow fast. Engage your clients through compelling visuals that do
+						most of the marketing for you.
+					</p>
+
+					<a href="#">Learn More</a>
+				</div>
+			</div>
+
+			<img
+				src="images/desktop/image-transform.jpg"
+				class="desktop-2"
+				alt="egg" />
+
+			<img
+				src="images/mobile/image-transform.jpg"
+				class="mobile-2"
+				alt="egg" />
+
+			<img
+				src="images/desktop/image-stand-out.jpg"
+				class="desktop-2"
+				alt="cup" />
+
+			<img
+				src="images/mobile/image-stand-out.jpg"
+				class="mobile-2"
+				alt="cup" />
+
+			<div class="project__one--container grid">
+				<div class="project__one grid">
+					<h3 class="project__one--title sec-title-one">
+						Stand out to the right <span>audience</span>
+					</h3>
+
+					<p class="project__one--para sec-para">
+						Using a collaborative formula of designers, researchers,
+						photographers, videographers, and copywriters, we’ll build and
+						extend your brand in digital places.
+					</p>
+
+					<a href="#">Learn More</a>
+				</div>
+			</div>
+
+			<div class="project__two">
+				<img
+					src="images/desktop/image-graphic-design.jpg"
+					class="desktop-2"
+					alt="apple" />
+
+				<img
+					src="images/mobile/image-graphic-design.jpg"
+					class="mobile-2"
+					alt="apple" />
+
+				<div class="projects__two--text__container grid">
+					<h3 class="project__two--title sec-title-two">Graphic design</h3>
+
+					<p class="project__two--para sec-para">
+						Great design makes you memorable. We deliver artwork that
+						underscores your brand message and captures potential clients’
+						attention.
+					</p>
+				</div>
+			</div>
+
+			<div class="project__two">
+				<img
+					src="images/desktop/image-photography.jpg"
+					class="desktop-2"
+					alt="apple" />
+
+				<img
+					src="images/mobile/image-photography.jpg"
+					class="mobile-2"
+					alt="apple" />
+
+				<div class="projects__two--text__container grid">
+					<h3 class="project__two--title sec-title-two">Photography</h3>
+
+					<p class="project__two--para sec-para">
+						Increase your credibility by getting the most stunning, high-quality
+						photos that improve your business image.
+					</p>
+				</div>
+			</div>
+		</section>
+
+		<!-- ---------------------------------- testimonial -->
+		<section class="testimonial layout grid">
+			<h3 class="testimonial__title">Client testimonials</h3>
+
+			<div class="testimonial__profiles grid">
+				<div class="testimonial__profiles--one grid">
+					<img
+						src="images/image-emily.jpg"
+						alt="woman" />
+
+					<p class="sec-para para">
+						We put our trust in Sunnyside and they delivered, making sure our
+						needs were met and deadlines were always hit.
+					</p>
+
+					<div class="tesimonial__profiles--one-name">
+						<p>Emily R</p>
+						<span>Manging Director</span>
+					</div>
+				</div>
+
+				<div class="testimonial__profiles--one grid">
+					<img
+						src="images/image-thomas.jpg"
+						alt="man" />
+
+					<p class="sec-para para">
+						Sunnyside’s enthusiasm coupled with their keen interest in our
+						brand’s success made it a satisfying and enjoyable experience.
+					</p>
+
+					<div class="tesimonial__profiles--one-name">
+						<p>Thomas S</p>
+						<span>Chief Operating Officer</span>
+					</div>
+				</div>
+
+				<div class="testimonial__profiles--one grid">
+					<img
+						src="images/image-jennie.jpg"
+						alt="woman" />
+
+					<p class="sec-para para">
+						Incredible end result! Our sales increased over 400% when we worked
+						with Sunnyside. Highly recommended!
+					</p>
+
+					<div class="tesimonial__profiles--one-name">
+						<p>Jennie F.</p>
+						<span>Business Owner</span>
+					</div>
+				</div>
+			</div>
+		</section>
+
+		<!-- ---------------------------------- services -->
+		<section
+		class="services layout grid"
+		id="services">
+		<img
+		src="images/desktop/image-gallery-milkbottles.jpg"
+		alt="mil-bottles"
+		class="desktop" />
+
+		<img
+		src="images/mobile/image-gallery-milkbottles.jpg"
+		alt="mil-bottles"
+		class="mobile" />
+
+		<img
+		src="images/desktop/image-gallery-orange.jpg"
+		alt="orange"
+		class="desktop" />
+		<img
+		src="images/mobile/image-gallery-orange.jpg"
+		alt="orange"
+		class="mobile" />
+
+		<img
+		src="images/desktop/image-gallery-cone.jpg"
+		alt="icecream-cone"
+		class="desktop" />
+		<img
+		src="images/mobile/image-gallery-cone.jpg"
+		alt="icecream-cone"
+		class="mobile" />
+
+		<img
+		src="images/desktop/image-gallery-sugarcubes.jpg"
+		alt="sugar-cubes"
+		class="desktop" />
+		<img
+		src="images/mobile/image-gallery-sugar-cubes.jpg"
+		alt="sugar-cubes"
+		class="mobile" />
+		<!-- </section> -->
+
+		<!-- ---------------------------------- footer -->
+		<section
+			class="footer layout grid"
+			id="contact">
+			<h4 class="footer__title">sunnyside</h4>
+
+			<ul class="footer__links grid">
+				<li><a href="about">About</a></li>
+				<li><a href="services"> services </a></li>
+				<li><a href="projects">Projects</a></li>
+			</ul>
+
+			<div class="footer__sociallinks grid">
+				<img
+					src="images/icon-facebook.svg"
+					alt="facebook-logo" />
+				<img
+					src="images/icon-instagram.svg"
+					alt="instagram-logo" />
+				<img
+					src="images/icon-twitter.svg"
+					alt="twitter-logo" />
+				<img
+					src="images/icon-pinterest.svg"
+					alt="pinterest-logo" />
+			</div>
+		</section>
+
+		<script src="index.js"></script>
+	</body>
+</html>
+
+

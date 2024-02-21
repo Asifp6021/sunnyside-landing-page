@@ -1,0 +1,16 @@
+{
+	"html.format.indentHandlebars": true,
+	"html.format.indentInnerHtml": true,
+	"html.format.preserveNewLines": false,
+	"html-css-class-completion.enableEmmetSupport": true,
+	"rest-client.previewResponseInUntitledDocument": false,
+	"prettier.singleAttributePerLine": true,
+	"prettier.requireConfig": false,
+	"prettier.bracketSameLine": true,
+	"liveServer.settings.donotVerifyTags": true,
+	"highlight-matching-tag.noDefaultEmptyElements": true,
+	"prettier.useEditorConfig": false,
+	"editor.stickyScroll.scrollWithEditor": false,
+	"workbench.tree.enableStickyScroll": false,
+	"editor.stickyScroll.enabled": false
+}
