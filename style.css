@@ -348,7 +348,7 @@ img {
 
 .footer {
 	padding: var(--padding-d-xxl-v) 0;
-	background-color: var(--Dark-moderate-cyan);
+	background-color: #90d4c5;
 }
 
 .footer__title {
