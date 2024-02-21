@@ -22,3 +22,11 @@ console.log('hello');
 hamburgerMenu.addEventListener('click', function () {
 	navContainer.classList.toggle('show');
 });
+
+const scroll = new SmoothScroll('.header__content--nav a[href*="#"]', {
+	speed: 800,
+});
+
+const scrollFromFooter = new SmoothScroll('.footer__links a[href*="#"]', {
+	speed: 800,
+});
